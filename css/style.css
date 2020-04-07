@@ -1,0 +1,109 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/beach-bench-boardwalk-clouds-462024.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Bergen Text Bold';
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 13%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    height: 100%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 60%;
+    
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.list li {
+    margin: 0;
+    margin-left: 5%;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+    transition: .7s;
+}
+
+.a:hover{
+    color: #4d4545;
+    transition: .7s;
+}
+
+
+.divBtnReserv {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnGoReserv {
+    width: 70%;
+    height: 50%;
+    background: red;
+    border: none;
+    border-radius: 1px;
+    color: white;
+    font-family: 'Bergen Text Bold';
+    font-size: 20px;
+    transition: .3s;
+}
+
+.btnGoReserv:hover {
+    background-color: rgb(14, 170, 14);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.cont {
+    width: 100%;
+    height: 70%;
+}
+
+.textCont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #4d4545;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy Bold';
+    font-size: 80px;
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Bergen Text Bold';
+    src: url('../fonts/BergenTextBold.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../fonts/Gilroy-Bold.ttf');
+    font-weight: normal;
+}
